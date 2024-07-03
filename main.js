@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
       sessionStorage.setItem("scrollToSection", targetId);
       setTimeout(function () {
         window.location.href = window.location.href.split("#")[0]; // إعادة تحميل الصفحة بدون الجزء المحدد
-      }, 2000);
+      }, 300);
     });
   });
   const scrollToSection = sessionStorage.getItem("scrollToSection");
