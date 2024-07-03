@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (section) {
       setTimeout(function () {
         gsap.to(window, {
-          duration: 3,
+          duration: 2,
           scrollTo: { y: section, offsetY: 20 },
           ease: "power1.inOut",
         });
